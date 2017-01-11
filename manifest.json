@@ -1,0 +1,20 @@
+{
+  "name": "cds-download",
+  "version": "2.1",
+  "manifest_version": 2,
+  "description": "CDS团队的网页下载器",
+  "devtools_page": "devtools.html",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
